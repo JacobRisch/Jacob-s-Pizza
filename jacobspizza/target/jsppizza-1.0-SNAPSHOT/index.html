@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Logan's Pizza</title>
+       
+    </head>
+    <body>
+        <h1>Logan's Pizza Web Order Form</h1>
+        <form name='pizzaform' method='get' action='order.jsp'>
+            <p>Customer Email: <input type="text" name="email" size="40" placeholder="enter email" required></p>
+            
+            <input type="radio" name="style" value="pan" required>Pan
+            <input type="radio" name="style" value="hand-tossed" >Hand-Tossed
+            <input type="radio" name="style" value="Thin" >Thin
+            <br>
+            <input type="radio" name="size" value="large" required>Large
+            <input type="radio" name="size" value="medium" >Medium
+            <input type="radio" name="size" value="small" >Small
+            <br>
+            <input type="checkbox" name="toppings" value="pepperoni" >Pepperoni
+            <input type="checkbox" name="toppings" value="mushroom" >Mushroom
+            <input type="checkbox" name="toppings" value="pineapple" >Pineapple
+            <br>
+            <input type="submit" name="order" value="Place Order">
+        </form>
+    </body>
+</html>
